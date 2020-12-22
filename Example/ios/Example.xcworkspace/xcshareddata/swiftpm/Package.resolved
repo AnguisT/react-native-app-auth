@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AppAuth",
+        "repositoryURL": "https://github.com/AnguisT/AppAuth-iOS",
+        "state": {
+          "branch": "master",
+          "revision": "3e76a3a6a475fc98f16ad384d4c175fee98e09cf",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
