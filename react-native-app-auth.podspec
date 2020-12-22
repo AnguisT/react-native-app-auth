@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.authors      = package['author']
   s.homepage     = package['homepage']
   s.platform     = :ios, '10.0'
-  s.source       = { :git => 'https://github.com/AnguisT/react-native-app-auth.git', :tag => "v#{s.version}" }
+  s.source       = { :git => 'https://github.com/AnguisT/react-native-app-auth.git' }
   s.source_files  = 'ios/**/*.{h,m}'
   s.requires_arc = true
   s.dependency 'React-Core'
-  s.dependency 'AppAuth', :git => 'https://github.com/AnguisT/AppAuth-iOS.git'
+  s.dependency 'AppAuth', '1.4.0'
 end
